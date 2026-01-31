@@ -11,11 +11,17 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Outfit:wght@300;400;600;800&display=swap"
     rel="stylesheet">
+  <script>
+    // Redirect to add trailing slash if missing (fixes GitHub Pages blank screen)
+    if (window.location.pathname.endsWith('/Portfolio')) {
+      window.location.replace(window.location.pathname + '/');
+    }
+  </script>
 </head>
 
 <body>
   <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
+  <script type="module" src="./src/main.jsx"></script>
 </body>
 
 </html>
