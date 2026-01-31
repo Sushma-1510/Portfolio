@@ -81,7 +81,7 @@ function App() {
               Building the future with intelligent web systems.
             </p>
             <div style={{ marginTop: '30px' }}>
-              <a href="./resume_2.pdf" target="_blank" style={{ color: 'var(--neon-blue)', fontSize: '0.9rem', letterSpacing: '2px', textDecoration: 'underline' }}>
+              <a href={`${import.meta.env.BASE_URL}resume_2.pdf`} target="_blank" style={{ color: 'var(--neon-blue)', fontSize: '0.9rem', letterSpacing: '2px', textDecoration: 'underline' }}>
                 &gt; ACCESS RESUME
               </a>
             </div>
